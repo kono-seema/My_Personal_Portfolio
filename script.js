@@ -225,3 +225,95 @@ function renderProjects() {
         </div>
     `).join('');
 }
+
+
+// ==========================================
+// DARK MODE FUNCTIONALITY
+// ==========================================
+
+function initDarkMode() {
+    const darkModeToggle = document.getElementById('darkModeToggle');
+    const sunIcon = document.querySelector('.sun-icon');
+    const moonIcon = document.querySelector('.moon-icon');
+    
+    // save user preference
+    
+    const savedMode = localStorage.getItem('darkMode');
+    if (savedMode === 'enabled') {
+        document.body.classList.add('dark-mode');
+        sunIcon.style.display = 'none';
+        moonIcon.style.display = 'inline';
+    }
+    
+    
+    // Current version 
+    let darkModeEnabled = false;
+    
+    // Toggle dark mode
+    darkModeToggle.addEventListener('click', () => {
+        darkModeEnabled = !darkModeEnabled;
+        
+        if (darkModeEnabled) {
+            document.body.classList.add('dark-mode');
+            sunIcon.style.display = 'none';
+            moonIcon.style.display = 'inline';
+            // save preference
+            localStorage.setItem('darkMode', 'enabled');
+        } else {
+            document.body.classList.remove('dark-mode');
+            sunIcon.style.display = 'inline';
+            moonIcon.style.display = 'none';
+            //save preference
+            localStorage.setItem('darkMode', 'disabled');
+        }
+    });
+}
+
+// ==========================================
+// SMOOTH SCROLL FOR NAVIGATION
+// ==========================================
+
+function initSmoothScroll() {
+    const navLinks = document.querySelectorAll('.nav-link');
+    
+    navLinks.forEach(link => {
+        link.addEventListener('click', (e) => {
+            e.preventDefault();
+            const targetId = link.getAttribute('href');
+            const targetSection = document.querySelector(targetId);
+            
+            if (targetSection) {
+                targetSection.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            }
+        });
+    });
+}
+
+// ==========================================
+// INITIALIZE ON PAGE LOAD
+// ==========================================
+
+document.addEventListener('DOMContentLoaded', () => {
+    renderSkills();
+    renderCertifications();
+    renderEducation();
+    renderProjects();
+    initDarkMode();
+    initSmoothScroll();
+});
+
+// ==========================================
+// NAVBAR SCROLL EFFECT
+// ==========================================
+
+window.addEventListener('scroll', () => {
+    const navbar = document.getElementById('navbar');
+    if (window.scrollY > 50) {
+        navbar.style.boxShadow = '0 4px 20px rgba(0, 0, 0, 0.2)';
+    } else {
+        navbar.style.boxShadow = '0 2px 10px rgba(0, 0, 0, 0.1)';
+    }
+});
