@@ -70,11 +70,11 @@ const projects = [
         demo: "https://chat-bot-project-two.vercel.app/"
     },
     {
-        title: "CI/CD Pipeline Implementation",
-        description: "Built a comprehensive CI/CD pipeline using Jenkins and Docker. Automated testing, deployment, and monitoring for microservices architecture. Reduced deployment errors by 90% and time-to-market by 60%.",
-        image: "https://via.placeholder.com/400x250/4A90E2/ffffff?text=Project+Screenshot",
-        github: "https://github.com/yourusername/project3",
-        demo: "https://demo-project3.com"
+        title: "Personal Portfolio Website",
+        description: "A professional and dynamic portfolio that chronicles my journey as a technology and data enthusiast. This site strategically showcases my strongest projects, technical skill development, and demonstrated ability to build effective solutions.",
+        image: "imgs/myportfolio.png",
+        github: "https://github.com/kono-seema/My_Personal_Portfolio.git",
+        demo: "https://my-personal-portfolio-alpha-bay.vercel.app/"
     }   
 ];
 
