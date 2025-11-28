@@ -37,7 +37,7 @@ const certifications = [
      
 ];
 
-// EDUCATION - ADD YOUR EDUCATION DETAILS HERE
+// EDUCATION 
 const education = [
     {
         degree: "Bachelor of Science in Mathematical Sciences",
@@ -50,5 +50,103 @@ const education = [
         institution: "Capaciti",
         year: "2025",
         description: "Intensive training in AI/Low-Code platforms, Cloud infrastructure (AWS/Azure), and Data Engineering concepts."
+    }
+];
+
+// PROJECTS 
+const projects = [
+    {
+        title: "SQL-ETL Pipeline builder",
+        description: "Engineered and deployed an automated ETL (Extract, Transform, Load) data pipeline written in Python, utilizing the pandas and SQLAlchemy libraries. The pipeline integrates with cloud services (AWS or Azure) for robust data storage and persistence.",
+        image: "imgs/sql-etl pipeline.png",
+        github: "https://github.com/PhalePallo/data-pipeline-builder", 
+        demo: "https://data-pipeline-builder-j7knk2xvlqe7zzqzg8h62e.streamlit.app/" 
+    },
+    {
+        title: "AI-Powered Chatbot",
+        description: "Code Breaker: An AI chatbot built to help developers write, debug, and understand code in real-time. > ⚙️ Powered by JavaScript, APIs, and a passion for clean code. > 🚀 Built collaboratively by a team of creative coders who believe that code should be simple, smart, and accessible.",
+        image: "imgs/ai-chatbot.png",
+        github: "https://github.com/lesego1005/ChatBot_Project",
+        demo: "https://chat-bot-project-two.vercel.app/"
+    },
+    {
+        title: "CI/CD Pipeline Implementation",
+        description: "Built a comprehensive CI/CD pipeline using Jenkins and Docker. Automated testing, deployment, and monitoring for microservices architecture. Reduced deployment errors by 90% and time-to-market by 60%.",
+        image: "https://via.placeholder.com/400x250/4A90E2/ffffff?text=Project+Screenshot",
+        github: "https://github.com/yourusername/project3",
+        demo: "https://demo-project3.com"
+    }   
+];
+
+// SKILLS 
+const skillCategories = [
+    {
+        title: "Cloud Platforms",
+        icon: "",
+        skills: [
+            "AWS (EC2, S3, Lambda, RDS)",
+            "Microsoft Azure",
+            "Google Cloud Platform",
+            "Cloud Architecture & Design",
+            "Serverless Computing",
+            "Cloud Security Best Practices",
+            "Data Storage Solutions"
+        ]
+    },
+    {
+        title: "AI & Machine Learning",
+        icon: "",
+        skills: [
+            "Google Cloud Platform",
+            "Natural Language Processing",
+            "Deep Learning",
+            "ML Model Deployment",
+            "AI API Integration"
+        ]
+    },
+    {
+        title: "DevOps & Tools",
+        icon: "",
+        skills: [
+            "Docker & Kubernetes",
+            "CI/CD Pipelines",
+            "GitHub Actions",
+            "Automation & Efficiency Optimization",
+            "Monitoring & Logging"
+        ]
+    },
+    {
+        title: "Data & Analytics",
+        icon: "",
+        skills: [
+            "SQL & NoSQL Databases",
+            "Query Languages",
+            "Data Pipeline Development",
+            "Data Manipulation",
+            "Big Data Technologies",
+            "ETL Processes"
+        ]
+    },
+    {
+        title: "Low-Code Platforms",
+        icon: "",
+        skills: [
+            "Microsoft Power Platform",
+            "Business Process Automation",
+            "No-Code App Development",
+            "Microsoft 365",
+            "Workflow Automation"
+        ]
+    },
+    {
+        title: "Programming",
+        icon: "",
+        skills: [
+            "Python",
+            "JavaScript/Node.js",
+            "PowerShell/Bash",
+            "REST APIs",
+            "Web Development"
+        ]
     }
 ];
