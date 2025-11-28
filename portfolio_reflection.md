@@ -1,21 +1,21 @@
 # Portfolio Capstone Project – Reflection
 
 ## Project Overview
-This capstone project is the highlight of my bootcamp journey — a professional portfolio that pulls together everything I’ve learned across cloud, DevOps, data, and full-stack fundamentals. While it showcases a wide range of technical skills, I built it with a strong data-engineering mindset: structured content, scalable patterns, clean workflows, and a focus on efficiency. It’s both a personal milestone and a platform for employers to understand the type of engineer I’m growing into.
+This capstone project is the highlight of my bootcamp journey  a professional portfolio that pulls together everything I’ve learned across cloud, DevOps, data, and full-stack fundamentals. While it showcases a wide range of technical skills, I built it with a strong data engineering mindset: structured content, scalable patterns, clean workflows, and a focus on efficiency. It’s both a personal milestone and a platform for employers to understand the type of engineer I’m growing into.
 
 ## What I Learned
 
 ### Technical Skills
-I gained hands-on experience building a responsive, production-ready application using HTML5, CSS3, and JavaScript. Using Grid, Flexbox, and reusable components helped me approach the UI the same way I would approach data models — structured, organized, and scalable.  
+I gained hands-on experience building a responsive, production ready application using HTML5, CSS3, and JavaScript. Using Grid, Flexbox, and reusable components helped me approach the UI the same way I would approach data models structured, organized, and scalable.  
 Working with browser APIs like localStorage gave me exposure to data persistence and state management, which aligns strongly with data-engineering concepts such as data storage, formatting, and retrieval.  
 Implementing light/dark mode also strengthened my understanding of user-centric design.
 
 ### Deployment & DevOps
-Using Git for version control and deploying through Vercel helped me understand real CI/CD workflows. Automated builds, preview deployments, and fast iteration cycles showed me how DevOps practices support reliability and performance — the same principles used in stable data pipelines and cloud applications.  
+Using Git for version control and deploying through Vercel helped me understand real CI/CD workflows. Automated builds, preview deployments, and fast iteration cycles showed me how DevOps practices support reliability and performance the same principles used in stable data pipelines and cloud applications.  
 I also learned performance optimization techniques like image compression and lazy loading, which parallels optimization thinking in cloud workloads.
 
 ### Professional Development
-This project taught me how to plan, prioritize, break features down logically, write clean code, and document my work — all essential skills for cloud, DevOps, and data engineering roles.
+This project taught me how to plan, prioritize, break features down logically, write clean code, and document my work -all essential skills for cloud, DevOps, and data engineering roles.
 
 ## Technical Strengths Demonstrated
 
@@ -51,7 +51,7 @@ GitHub-to-Vercel automation introduced me to real continuous integration and dep
 HTTPS, secure links, and cautious handling of stored data reflect the security focus emphasized in the bootcamp.
 
 ### Observability
-Using Google Analytics introduced basic monitoring and performance insights — similar to tracking job runtimes and data flow behavior in pipeline environments.
+Using Google Analytics introduced basic monitoring and performance insights similar to tracking job runtimes and data flow behavior in pipeline environments.
 
 ## Goals Moving Forward
 
@@ -79,7 +79,7 @@ Using Google Analytics introduced basic monitoring and performance insights — 
 This bootcamp helped me shift from theory into real engineering practice. I now understand how cloud, DevOps, and data concepts connect and how to apply them to real-world problems. The hands-on work gave me confidence in designing, deploying, and improving systems.
 
 ### Professional Mindset
-I’ve grown in communication, problem-solving, adaptability, and the ability to learn new tools and technologies quickly — all essential traits for fast-growing fields like cloud and data engineering.
+I’ve grown in communication, problem-solving, adaptability, and the ability to learn new tools and technologies quickly which are all essential traits for fast-growing fields like cloud and data engineering.
 
 ### Career Readiness
 This portfolio isn’t just a website; it’s proof of my readiness. It shows I can plan, build, optimize, and deploy — and that I’m prepared for the next step in my career journey.
