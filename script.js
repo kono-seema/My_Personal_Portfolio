@@ -177,7 +177,8 @@ function renderCertifications() {
             <img src="${cert.image}" alt="${cert.name}" class="cert-image">
             <div class="cert-content">
                 <h4>${cert.name}</h4>
-                <p>Verify Certificate →</p>   
+                <p class="cert-description">${cert.description}</p>
+                <p class="cert-verify">Verify Certificate →</p>
             </div>
         </a>
     `).join('');
